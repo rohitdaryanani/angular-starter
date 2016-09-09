@@ -1,0 +1,15 @@
+{
+  "name": "angular-starter",
+  "version": "0.0.0",
+  "authors": [
+    "Rohit Daryanani <rohitdaryanani@yahoo.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
