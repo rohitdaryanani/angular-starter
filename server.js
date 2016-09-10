@@ -15,6 +15,8 @@ app.use(bodyParser.urlencoded({'extended':'true'}));
 // parse application/json
 app.use(bodyParser.json());
 
+// app.get('*', (req, res) =>  res.send('./public/index.html'))
+
 // listen (start app with node server.js)
 app.listen(9000);
 console.log("App listening on port 9000");

@@ -6,7 +6,9 @@
     <link rel="stylesheet/less" type="text/css" href="less/style.less">
 </head>
 <body>
-    <p>test</p>
+    <div id="main">
+        <div ng-view></div>
+    </div>
 
     <!-- bower components -->
     <script src="/bower_components/less/dist/less.min.js"></script>
@@ -18,5 +20,12 @@
 
     <!-- bootstrapping -->
     <script src="/app/app.module.js"></script>
+
+    <!-- dashboard -->
+    <script src="/app/dashboard/dashboard.module.js"></script>
+    <!-- users -->
+    <script src="/app/users/users.module.js"></script>
+    <!-- home -->
+    <script src="/app/home/home.module.js"></script>
 </body>
 </html>
