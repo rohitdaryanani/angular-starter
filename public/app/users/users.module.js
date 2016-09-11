@@ -5,7 +5,8 @@
         .config(['$routeProvider', function ($routeProvider) {
             $routeProvider
                 .when('/users', {
-                    templateUrl : 'app/users/users.html'
+                    templateUrl : 'app/users/users.html',
+                    controller  : 'UsersCtrl as vm'
                 });
         }]);
 })();
